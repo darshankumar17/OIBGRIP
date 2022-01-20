@@ -1,0 +1,157 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100%;
+  background: url('bg8.jpg');
+  /* background-color: white; */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+ 
+}
+
+
+.left{
+  font-weight: bold;
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+  left: 34px;
+  top: 0px;
+  color: black;
+  font-size: 35px;
+  padding: 10px 22px;
+ 
+}
+
+.mid{
+  display:block;
+  width: 35%;
+  margin: 0px auto;
+  /* border: 2px solid green; */
+}
+.right{
+  /* border: 2px solid blue; */
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 0px;
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+  font-size: 26px;
+}
+.navbar li a{
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.navbar li a:hover, .navbar li a.active{
+  text-decoration: underline;
+}
+.btn{
+  transition-duration: 0.4s;
+  background-color: transparent;
+  margin: 5px 9px;
+  color: black;
+  padding: 7px 14px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 26px;
+  cursor: pointer;
+  
+
+ }
+.btn:hover{
+  background-color: black;
+  color: white;
+} 
+article{
+  /* border: 2px solid green; */
+  height: 94vh;
+  width: 100%;
+  
+}
+.top{
+  height: 30vh;
+  width: 100%;
+  /* border: 2px solid pink; */
+} 
+article h1{
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
+  color: black;
+  
+}
+article p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  color: black;
+}
+.p1{
+  margin: 0px;
+  padding: 0px;
+  font-size: 35px;
+}
+.bottom{
+  /* border: 2px solid black; */
+  background-color: rgb(231, 229, 232);
+  padding: 2px 2px;
+  margin: 0px 0px;
+ 
+}
+.bottom h1{
+  margin-top: 50px;
+  padding: 0px;
+  color: black;
+}
+.item{
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  display: inline-block;
+  color: black;
+  width: 15%;
+  height: 45vh;
+  margin: 40px;
+ 
+}
+img{
+  height: 300px;
+}
+
+.bottom1{
+  /* border: 2px solid black; */
+  background-color: rgb(231, 229, 232);
+  
+  padding: 2px 2px;
+ 
+}
+.bottom1 h1{
+  margin: 20px;
+  padding: 0px;
+  color: black;
+}
+
+footer{
+  background-color:rgb(231, 229, 232); ;
+  /* border: 2px solid blue; */
+  display: block; 
+}
+.left1{
+/* border: 2px solid red; */
+color: black;
+width: 90%;
+text-align: center;
+display: inline-block;
+padding: 10px 22px;
+}
